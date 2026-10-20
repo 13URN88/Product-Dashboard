@@ -13,7 +13,7 @@
                 </div>
                  
                 <div class="p-4">
-                   put content here
+                   <?= $content ?? '' ?>
                 </div>
             </div>
  
