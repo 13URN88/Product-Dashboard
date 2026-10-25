@@ -10,8 +10,10 @@ ob_start();
                 <p class="text-muted mb-0">Order #O001</p>
             </div>
             <div class="col-auto">
-                <button type="button" class="btn btn-primary"><i class="bi bi-printer me-1"></i>Print</button>
-            </div>
+              <button type="button" class="btn btn-primary" onclick="window.print()">
+                      <i class="bi bi-printer me-1"></i>Print
+                </button>
+            </div> 
         </div>
     </div>
 </div>
@@ -69,11 +71,38 @@ ob_start();
     </div>
 </div>
  
+
+
 <style>
-@media print {
- 
-}
+    @media print {
+
+        /* Hide the sidebar */
+        #mySidebar {
+            display: none !important;
+        }
+
+        /* Hide the mobile burger header */
+        #TorqX {
+            display: none !important;
+        }
+
+        /* Hide the Print and Back to Details buttons */
+        .btn {
+            display: none !important;
+        }
+
+        /* Remove card shadows and borders */
+        .card {
+            box-shadow: none !important;
+            border: none !important;
+        }
+
+    }
 </style>
+
+
+
+
  
 <?php
 $content = ob_get_clean();
