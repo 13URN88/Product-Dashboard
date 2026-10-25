@@ -16,9 +16,37 @@
               </a>
             </li>
             <li class="nav-item mb-3">
-              <a href="" class="text-decoration-none text-white">
+              <a href="#" class="text-decoration-none text-white">
                 <i class="bi bi-bar-chart-line-fill me-2"></i>
                 Dashboard
+              </a>
+            </li>
+            <!-- Products -->
+              <li class="nav-item mb-3">
+              <a href="products.php" class="text-decoration-none text-white">
+                <i class="bi bi-box-seam-fill me-2"></i>
+                Products
+              </a>
+            </li>
+            <!-- Customers -->
+            <li class="nav-item mb-3">
+              <a href="customers.php" class="text-decoration-none text-white">
+                <i class="bi bi-people-fill me-2"></i>
+                Customers
+              </a>
+            </li>
+            <!-- Orders -->
+            <li class="nav-item mb-3">
+              <a href="orders.php" class="text-decoration-none text-white">
+                <i class="bi bi-cart-plus me-2"></i>
+                Orders
+              </a>
+            </li>
+            <!-- Staffs -->
+            <li class="nav-item mb-3">
+              <a href="staffs.php" class="text-decoration-none text-white">
+                <i class="bi bi-person-badge-fill me-2"></i>
+                Staffs
               </a>
             </li>
             <!-- Add more menus -->
