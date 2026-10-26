@@ -58,10 +58,10 @@ ob_start();
                 <tbody>
                     <tr>
                         <td>1</td>
-                        <td>Road Bike</td>
-                        <td>$1,200.00</td>
+                        <td>Jeep Wrangler 4X4</td>
+                        <td>$999.99</td>
                         <td>1</td>
-                        <td class="text-end">$1,200.00</td>
+                        <td class="text-end">$999.99</td>
                     </tr>
                     <tr>
                         <td colspan="5" class="text-center">No products added to this order</td>
@@ -70,7 +70,7 @@ ob_start();
                 <tfoot>
                     <tr>
                         <th colspan="4" class="text-end">Grand Total</th>
-                        <th class="text-end">$1,200.00</th>
+                        <th class="text-end">$999.99</th>
                     </tr>
                 </tfoot>
             </table>

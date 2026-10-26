@@ -112,13 +112,14 @@ ob_start();
 
                 <tbody>
 
-                    <tr>
+                    
+                         <tr>
                         <td>O001</td>
                         <td>2026-10-03</td>
                         <td>Jane Smith</td>
-                        <td>Alice Johnson</td>
+                        <td>John Doe</td>
                         <td>
-                            <a href="order_details.php" class="btn btn-sm btn-info text-white" title="Order details">
+                            <a href="orderdetails.php" class="btn btn-sm btn-info text-white" title="Order details">
                                 <i class="bi bi-list-ul"></i>
                             </a>
 
@@ -135,6 +136,56 @@ ob_start();
                             </a>
                         </td>
                     </tr>
+
+                    <tr>
+                        <td>O002</td>
+                        <td>2026-10-03</td>
+                        <td>Jane Smith</td>
+                        <td>Alice Johnson</td>
+                        <td>
+                            <a href="orderdetails.php" class="btn btn-sm btn-info text-white" title="Order details">
+                                <i class="bi bi-list-ul"></i>
+                            </a>
+
+                            <a href="invoice.php" class="btn btn-sm btn-success" title="View invoice">
+                                <i class="bi bi-receipt"></i>
+                            </a>
+
+                            <a href="#" class="btn btn-sm btn-warning" title="Edit order">
+                                <i class="bi bi-pencil"></i>
+                            </a>
+
+                            <a href="#" class="btn btn-sm btn-danger" title="Delete order">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+
+                         <tr>
+                        <td>O003</td>
+                        <td>2026-10-04</td>
+                        <td>Karim Adeni</td>
+                        <td>Michael Brown</td>
+                        <td>
+                            <a href="orderdetails.php" class="btn btn-sm btn-info text-white" title="Order details">
+                                <i class="bi bi-list-ul"></i>
+                            </a>
+
+                            <a href="invoice.php" class="btn btn-sm btn-success" title="View invoice">
+                                <i class="bi bi-receipt"></i>
+                            </a>
+
+                            <a href="#" class="btn btn-sm btn-warning" title="Edit order">
+                                <i class="bi bi-pencil"></i>
+                            </a>
+
+                            <a href="#" class="btn btn-sm btn-danger" title="Delete order">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+
+
 
                     <tr>
                         <td colspan="5" class="text-center">No orders found</td>

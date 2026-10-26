@@ -45,10 +45,10 @@ ob_start();
                     <label for="brand" class="form-label">Brand <span class="text-danger" aria-hidden="true">*</span></label>
                     <select name="product_brand" id="brand" class="form-select" required>
                         <option value="">Select Brand</option>
-                        <option value="Cervelo">Cervelo</option>
-                        <option value="Geometric">Geometric</option>
-                        <option value="Tecc">Tecc</option>
-                        <option value="Nosh">Nosh</option>
+                        <option value="Axial">Axial</option>
+                        <option value="Traxxas">Traxxas</option>
+                        <option value="Tamiya">Tamiya</option>
+                        <option value="Mugen seiki">Mugen seiki</option>
                     </select>
                 </div>
  
@@ -132,9 +132,9 @@ products
                 <tbody>
                     <tr>
                         <td>P001</td>
-                        <td>Road Bike</td>
-                        <td>$1,200.00</td>
-                        <td>Cervelo</td>
+                        <td>Jeep Wrangler 4X4</td>
+                        <td>$999.99</td>
+                        <td>Axial</td>
                         <td>
                             <a href="#" class="btn btn-sm btn-warning">
                                 <i class="bi bi-pencil"></i>
@@ -147,6 +147,80 @@ products
                             </a>
                         </td>
                     </tr>
+
+                      <tr>
+                        <td>P001</td>
+                        <td>Nissan R34</td>
+                        <td>$199.99</td>
+                        <td>Tamiya</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning">
+                                <i class="bi bi-pencil"></i>
+                            </a>
+                            <button type="button" class="btn btn-sm btn-info text-white">
+                                <i class="bi bi-image"></i>
+                            </button>
+                            <a href="#" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                      </tr>
+
+                       <tr>
+                        <td>P003</td>
+                        <td>Ford Mustang GT-R</td>
+                        <td>$159.99</td>
+                        <td>Kyosho</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning">
+                                <i class="bi bi-pencil"></i>
+                            </a>
+                            <button type="button" class="btn btn-sm btn-info text-white">
+                                <i class="bi bi-image"></i>
+                            </button>
+                            <a href="#" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                      </tr>
+
+                    <tr>
+                        <td>P004</td>
+                        <td>BMW M3</td>
+                        <td>$189.99</td>
+                        <td>HPI Racing</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning">
+                                <i class="bi bi-pencil"></i>
+                            </a>
+                            <button type="button" class="btn btn-sm btn-info text-white">
+                                <i class="bi bi-image"></i>
+                            </button>
+                            <a href="#" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    
+                     <tr>
+                        <td>P005</td>
+                        <td>BMW M4</td>
+                        <td>$299.99</td>
+                        <td>HPI Racing</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning">
+                                <i class="bi bi-pencil"></i>
+                            </a>
+                            <button type="button" class="btn btn-sm btn-info text-white">
+                                <i class="bi bi-image"></i>
+                            </button>
+                            <a href="#" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+
+
                     <tr>
                         <td colspan="5" class="text-center">No products found</td>
                     </tr>

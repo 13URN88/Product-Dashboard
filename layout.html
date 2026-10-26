@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My App</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+        rel="stylesheet">
+
+    <style>
+        /* Sidebar styling */
+        #mySidebar {
+            width: 150px;
+            min-height: 100vh;
+            flex-shrink: 0;
+        }
+
+        /* Sidebar content spacing */
+        #mySidebar .sidebar-content {
+            padding: 16px;
+        }
+
+        /* Company name */
+        .navbar-brand {
+            color: white;
+            text-decoration: none;
+        }
+
+        .navbar-brand h5 {
+            font-size: 14px;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+
+        /* Navigation links */
+        .mynav {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .mynav .nav-item {
+            font-size: 12px;
+        }
+
+        .mynav .nav-link {
+            color: white;
+            text-decoration: none;
+            padding: 0;
+        }
+
+        .mynav .nav-link:hover {
+            color: #adb5bd;
+        }
+
+        /* User profile */
+        .user-profile {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .user-avatar {
+            width: 34px;
+            height: 34px;
+            line-height: 34px;
+            flex-shrink: 0;
+        }
+
+        .user-details h6 {
+            font-size: 11px;
+            font-weight: bold;
+        }
+
+        .user-details small {
+            font-size: 9px;
+        }
+
+        /* Main content */
+        .main-content {
+            min-width: 0;
+            flex: 1;
+        }
+
+        /* Responsive layout */
+        @media (max-width: 767.98px) {
+            #mySidebar {
+                width: 250px;
+                min-height: 100vh;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid p-0">
+        <div class="d-flex min-vh-100">
+
+            <!-- Sidebar -->
+            <div
+                id="mySidebar"
+                class="bg-dark text-white offcanvas-md offcanvas-start">
+
+                <div class="sidebar-content">
+
+                    <!-- Company name -->
+                    <a href="#" class="navbar-brand">
+                        <h5>My Company</h5>
+                    </a>
+
+                    <hr>
+
+                    <!-- Navigation menu -->
+                    <ul class="mynav nav flex-column">
+
+                        <li class="nav-item mb-3 mt-2">
+                            <a href="#" class="nav-link">
+                                <i class="bi bi-house-fill me-1"></i>
+                                Home
+                            </a>
+                        </li>
+
+                        <li class="nav-item mb-3">
+                            <a href="#" class="nav-link">
+                                <i class="bi bi-bar-chart-line-fill me-1"></i>
+                                Dashboard
+                            </a>
+                        </li>
+
+                    </ul>
+
+                    <hr>
+
+                    <!-- User profile dropdown -->
+                    <div class="dropdown">
+
+                        <a
+                            href="#"
+                            class="text-decoration-none text-white dropdown-toggle d-inline-block"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+
+                            <div class="user-profile">
+
+                                <!-- User icon -->
+                                <div
+                                    class="user-avatar rounded-circle bg-secondary text-center">
+
+                                    <i class="bi bi-person-fill text-white fs-5"></i>
+
+                                </div>
+
+                                <!-- User information -->
+                                <div class="user-details text-start">
+
+                                    <h6 class="mb-0 text-nowrap">
+                                        User
+                                    </h6>
+
+                                    <small class="text-white-50 text-nowrap d-block">
+                                        user@email.com
+                                    </small>
+
+                                </div>
+
+                            </div>
+
+                        </a>
+
+                        <!-- Dropdown menu -->
+                        <ul class="dropdown-menu dropdown-menu-end">
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Logout
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Main content -->
+            <main class="main-content">
+
+                Put content here.
+
+            </main>
+
+        </div>
+    </div>
+
+    <!-- Bootstrap JavaScript -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+
+</html>

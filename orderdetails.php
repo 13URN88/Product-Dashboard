@@ -8,7 +8,7 @@ ob_start();
         <p class="text-muted mb-0">Order #O001 for Alice Johnson</p>
     </div>
 </div>
- 
+ <!--Customers Order Details-->
 <div class="card shadow-sm mb-4">
     <div class="card-body">
         <div class="row g-3">
@@ -17,8 +17,11 @@ ob_start();
             <div class="col-md-4"><strong>Customer</strong><br>Alice Johnson</div>
         </div>
     </div>
+
+   
+    
 </div>
- form to add a new product to the order.
+
  <div class="card shadow-sm mb-4">
     <div class="card-body">
         <h5 class="mb-3"><i class="bi bi-cart-plus text-primary me-2"></i>Add Product</h5>
@@ -30,8 +33,8 @@ ob_start();
                     <label for="product_num" class="form-label">Product <span class="text-danger" aria-hidden="true">*</span></label>
                     <select name="product_num" id="product_num" class="form-select" required>
                         <option value="">Select Product</option>
-                        <option value="P001">Road Bike (Stock = 10)</option>
-                        <option value="P002">Mountain Bike (Stock = 5)</option>
+                        <option value="P001">Jeep Wrangler 4X4 (Stock = 10)</option>
+                        <option value="P002">Nissan R34 (Stock = 5)</option>
                     </select>
                 </div>
                 <div class="col-md-4">
@@ -66,10 +69,10 @@ add a table that will list all products in the order.
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Road Bike</td>
-                        <td>$1,200.00</td>
+                        <td>Jeep Wrangler 4X4</td>
+                        <td>999.99</td>
                         <td>1</td>
-                        <td>$1,200.00</td>
+                        <td>999.99</td>
                         <td>
                             <a href="#" class="btn btn-sm btn-warning"><i class="bi bi-pencil"></i></a>
                             <a href="#" class="btn btn-sm btn-danger"><i class="bi bi-trash"></i></a>
@@ -77,7 +80,7 @@ add a table that will list all products in the order.
                     </tr>
                     <tr><td colspan="5" class="text-center">No products added to this order</td></tr>
                 </tbody>
-                <tfoot><tr><th colspan="3" class="text-end">Grand Total</th><th>$1,200.00</th><th></th></tr></tfoot>
+                <tfoot><tr><th colspan="3" class="text-end">Grand Total</th><th>999.99</th><th></th></tr></tfoot>
             </table>
         </div>
         <a href="orders.php" class="btn btn-secondary"><i class="bi bi-arrow-left me-1"></i>Back to Orders</a>

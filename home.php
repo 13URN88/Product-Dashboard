@@ -18,10 +18,10 @@ ob_start();
 
 <!-- Hero Section -->
 <div class="card border-0 shadow mb-4 overflow-hidden">
-    <div class="card-body p-4 p-lg-5 text-white"
-         style="background: linear-gradient(120deg, #111827, #1d4ed8, #0f172a);">
+    <div class="card-body p-3 p-lg-5 text-white"
+        style="background-color: #212529;">
 
-        <div class="row align-items-center">
+        <div class="row align-items-center position-relative">
 
             <div class="col-lg-7">
                 <span class="badge bg-danger mb-3">READY, SET, RACE!</span>
@@ -31,28 +31,18 @@ ob_start();
                 </h1>
 
                 <p class="lead mt-3">
-                    Explore RC cars from popular brands such as Traxxas,
-                    Tamiya, ARRMA and Losi. Find the right car for racing,
-                    off-road driving, drifting and crawling.
+                    Discover the latest RC cars from top brands and 
+                    find the perfect model for your racing style.
                 </p>
 
                 
-            <a href="#popular-brands" class="btn btn-danger btn-lg mt-3">
-                 <i class="bi bi-lightning-charge-fill me-2"></i>
-                 Explore RC Cars
-            </a>
-
-
-            </div>
-
-            <div class="col-lg-5 text-center mt-4 mt-lg-0">
-                <i class="bi bi-car-front-fill"
-                   style="font-size: 150px; color: #facc15;"></i>
-
-                <h4 class="fw-bold mt-2">TORQX PERFORMANCE</h4>
-
-                <p class="mb-0">Built for racers. Made for adventure.</p>
-            </div>
+              <div class="col-lg-5 text-end">
+                <a href="#"
+                    class="btn btn-danger btn-lg position-absolute top-0 end-0 me-2 ">
+                    <i class="bi bi-lightning-charge-fill me-2"></i>
+                    Popular RC Cars
+                </a>
+              </div>
 
         </div>
     </div>
@@ -60,16 +50,16 @@ ob_start();
 
 
 <!-- RC Car Types -->
-<div class="mb-3">
+<div class="mb-3 ms-4 mt-4">
     <h3 class="fw-bold">Explore RC Car Types</h3>
     <p class="text-muted">
         Choose an RC car based on your driving style.
     </p>
 </div>
 
-<div class="card mb-4 border-0">
-    <div class="card-body text-white text-center p-4"
-         style="background-color: #212529; border-radius: 5px;">
+<div class="card mb-4 border-0 mx-4">
+    <div class="card-body text-white text-center p-2"
+         style="background-color: #212529; border-radius: 8px;">
 
         <div class="position-relative">
 
@@ -82,7 +72,7 @@ ob_start();
             </button>
 
             <!-- Car Type Content -->
-            <div class="py-4 px-5" style="min-height: 150px;">
+            <div class="py-4 px-5" >
 
                 <i id="carIcon" class="bi bi-car-front-fill"
                    style="font-size: 36px;"></i>
@@ -213,7 +203,7 @@ ob_start();
 
 <!-- Popular Brands -->
 <div class="card shadow-sm border-0 mb-4">
-    <div class="card-body p-4">
+    <div class="card-body p-3">
 
         <h3 class="fw-bold mb-1">Popular RC Car Brands</h3>
 
@@ -308,43 +298,8 @@ ob_start();
     </div>
 </div>
 
-
-
-<!-- Management Shortcuts -->
-<div class="card shadow-sm border-0 mb-4" id="popular-brands">
-    <div class="card-body p-4">
-
-        <h4 class="fw-bold">Store Management</h4>
-
-        <p class="text-muted">
-            Manage your RC car store using the links below.
-        </p>
-
-        <div class="d-flex flex-wrap gap-2">
-
-            <a href="products.php" class="btn btn-dark">
-                <i class="bi bi-box-seam me-2"></i>Products
-            </a>
-
-            <a href="customers.php" class="btn btn-primary">
-                <i class="bi bi-people me-2"></i>Customers
-            </a>
-
-            <a href="staffs.php" class="btn btn-success">
-                <i class="bi bi-person-badge me-2"></i>Staffs
-            </a>
-
-            <a href="orders.php" class="btn btn-danger">
-                <i class="bi bi-cart me-2"></i>Orders
-            </a>
-
-        </div>
-
-    </div>
-</div>
-
 <!-- Bottom Banner -->
-<div class="text-center p-4 mb-3 rounded shadow-sm text-white"
+<div class="text-center p-3 mb-3 rounded shadow-sm text-white"
      style="background-color: #212529;">
 
     <h4 class="fw-bold">YOUR RACE. YOUR RULES.</h4>

@@ -2,7 +2,7 @@
         <div class="p-4">
           <a href="#" class="navbar-brand">
             <div class="row">
-              <h5 class="">TorqX</h5>
+              <h5 class="">TorqX Sdn Bhd</h5>
             </div>
           </a>
  
@@ -49,13 +49,7 @@
                 Staffs
               </a>
             </li>
-            <!--invoice -->
-            <li class="nav-item mb-3">
-              <a href="invoice.php" class="text-decoration-none text-white">
-                <i class="bi bi-receipt me-2"></i>
-                Invoice
-              </a>
-            </li>
+            
             <!-- Add more menus -->
           </ul>
  

@@ -125,6 +125,23 @@ ob_start();
                         </td>
                     </tr>
 
+
+                    <tr>
+                        <td>S001</td>
+                        <td>Karim Adeni</td>
+                        <td>019-8765632</td>
+                        <td>kadeni@example.com</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning">
+                                <i class="bi bi-pencil"></i>
+                            </a>
+
+                            <a href="#" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+
                     <tr>
                         <td colspan="5" class="text-center">No staff members found</td>
                     </tr>
