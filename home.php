@@ -215,16 +215,7 @@ ob_start();
 
         <div class="row g-3">
 
-            <div class="col-md-3">
-                <div class="border rounded p-3 h-100">
-                    <h5 class="fw-bold">Traxxas</h5>
-                    <p class="text-muted mb-0">
-                        Monster trucks, stadium trucks and high-speed RC cars.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-md-3">
+              <div class="col-md-3">
                 <div class="border rounded p-3 h-100">
                     <h5 class="fw-bold">Tamiya</h5>
                     <p class="text-muted mb-0">
@@ -233,18 +224,11 @@ ob_start();
                 </div>
             </div>
 
-            <div class="col-md-3">
-                <div class="border rounded p-3 h-100">
-                    <h5 class="fw-bold">ARRMA</h5>
-                    <p class="text-muted mb-0">
-                        Performance-focused off-road trucks, buggies and bashers.
-                    </p>
-                </div>
-            </div>
+           
 
             <div class="col-md-3">
                 <div class="border rounded p-3 h-100">
-                    <h5 class="fw-bold">Losi</h5>
+                    <h5 class="fw-bold">Losi&Trax</h5>
                     <p class="text-muted mb-0">
                         Competition buggies, racing trucks and rock crawlers.
                     </p>
