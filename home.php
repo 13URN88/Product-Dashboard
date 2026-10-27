@@ -215,7 +215,7 @@ ob_start();
 
         <div class="row g-3">
 
-              <div class="col-md-3">
+              <div class="col-md-6">
                 <div class="border rounded p-3 h-100">
                     <h5 class="fw-bold">Tamiya</h5>
                     <p class="text-muted mb-0">
@@ -226,7 +226,7 @@ ob_start();
 
            
 
-            <div class="col-md-3">
+            <div class="col-md-6">
                 <div class="border rounded p-3 h-100">
                     <h5 class="fw-bold">Losi&Trax</h5>
                     <p class="text-muted mb-0">
@@ -235,7 +235,7 @@ ob_start();
                 </div>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-6">
                 <div class="border rounded p-3 h-100">
                     <h5 class="fw-bold">Kyosho</h5>
                     <p class="text-muted mb-0">
@@ -244,7 +244,7 @@ ob_start();
                 </div>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-6">
                 <div class="border rounded p-3 h-100">
                     <h5 class="fw-bold">HPI Racing</h5>
                     <p class="text-muted mb-0">
@@ -253,7 +253,7 @@ ob_start();
                 </div>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-6">
                 <div class="border rounded p-3 h-100">
                     <h5 class="fw-bold">Axial</h5>
                     <p class="text-muted mb-0">
@@ -262,7 +262,7 @@ ob_start();
                 </div>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-6">
                 <div class="border rounded p-3 h-100">
                     <h5 class="fw-bold">Mugen Seiki</h5>
                     <p class="text-muted mb-0">
