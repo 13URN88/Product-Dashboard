@@ -149,7 +149,7 @@ products
                     </tr>
 
                       <tr>
-                        <td>P001</td>
+                        <td>P002</td>
                         <td>Nissan R34</td>
                         <td>$199.99</td>
                         <td>Tamiya</td>
