@@ -37,10 +37,10 @@ ob_start();
 
                 
               <div class="col-lg-5 text-end">
-                <a href="#"
+                <a href="http://lrgs.ftsm.ukm.my/users/a217134/pt1/products.php"
                     class="btn btn-danger btn-lg position-absolute top-0 end-0 me-2 ">
                     <i class="bi bi-lightning-charge-fill me-2"></i>
-                    Popular RC Cars
+                    View Products
                 </a>
               </div>
 
@@ -273,14 +273,60 @@ ob_start();
 
         </div>
 
-        <div class="mt-4">
-            <a href="products.php" class="btn btn-primary">
-                <i class="bi bi-box-seam me-2"></i>View Products
-            </a>
+    
+    </div>
+
+</div>
+
+<!-- Order Now Button -->
+
+<div class="card shadow-sm border-0 mb-4">
+    <div class="card-body p-3">
+    <div class="row g-3">
+
+         <!--Products-->
+        <div class="col-md-3">
+            <div class="border rounded p-3 h-100">
+                <a href="Products.php" class="btn btn-primary">
+                    <i class="bi bi-box-seam me-2"></i>Our Products
+                </a>
+            </div>
+        </div>
+        
+        <!-- Order Now-->
+        <div class="col-md-3">
+            <div class="border rounded p-3 h-100">
+                <a href="Orders.php" class="btn btn-primary">
+                    <i class="bi bi-box-seam me-2"></i>Order Now!
+                </a>
+            </div>
         </div>
 
+        <!-- Staffs -->
+        <div class="col-md-3">
+            <div class="border rounded p-3 h-100">
+                <a href="Staffs.php" class="btn btn-primary">
+                    <i class="bi bi-box-seam me-2"></i>View Staffs
+                </a>
+            </div>
+        </div>
+
+        <!--Customer-->
+        <div class="col-md-3">
+            <div class="border rounded p-3 h-100">
+                <a href="Customers.php" class="btn btn-primary">
+                    <i class="bi bi-box-seam me-2"></i>Customers
+                </a>
+            </div>
+        </div>
+
+       
+
     </div>
+
 </div>
+</div>
+
 
 <!-- Bottom Banner -->
 <div class="text-center p-3 mb-3 rounded shadow-sm text-white"
